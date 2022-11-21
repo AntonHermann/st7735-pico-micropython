@@ -177,4 +177,5 @@ def testRotation () :
         print ('{} {}x{} {}:{}'.format(i, tft.size()[0],tft.size()[1] , tft.offset()[0],tft.offset()[1]))
         time.sleep_ms(3000)
         i = i + 1 if i < 3 else 0
-testRotation()
+
+test_main()
