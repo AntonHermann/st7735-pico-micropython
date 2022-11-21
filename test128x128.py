@@ -164,6 +164,8 @@ def test_main() :
         testtriangles()
         time.sleep_ms(500)
 
+        testRotation()
+
 def testRotation () :
     i = tft.rotate
     for x in range (0, 4) :
